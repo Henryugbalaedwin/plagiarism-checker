@@ -1,0 +1,143 @@
+body {
+  background-color: rgba(10, 31, 68, 0.05);
+  font-family: 'Roboto', sans-serif;}
+
+.navbar {
+  background-color: #0A1F44;
+}
+
+.navbar-brand.badge {
+  color: #0A1F44;
+}
+
+.navbar-text{
+  color: #0A1F44;
+}
+
+.nav-link{
+  color: #FFFFFF;
+}
+
+.card {
+  border-radius: 10px;
+  background-color: #FFFFFF;
+  box-shadow: 0px 5px 15px rgba(10, 31, 68, 0.1);
+}
+
+h4, h5 {
+  color: #0A1F44;
+  font-weight: bold;
+}
+
+textarea {
+  resize: none;
+  font-size: 16px;
+  padding: 10px;
+  border: 1px solid rgba(10, 31, 68, 0.3);
+  background-color: #FFFFFF;
+}
+
+.pasteTextBtn, .uploadDocBtn {
+  font-size: 16px;
+  padding: 10px 20px;
+  border-radius: 25px;
+  background-color: #FFFFFF;
+  border: 1px solid #D4AF37;
+  color: #0A1F44;
+}
+
+.pasteTextBtn:hover, .uploadDocBtn:hover {
+  background-color: rgba(10, 31, 68, 0.1);
+  color: #0A1F44;
+}
+
+.analyzeTextBtn {
+  background-color: #D4AF37;
+  border: none;
+  color: #0A1F44;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 40px;
+  border-radius: 25px;
+}
+
+.analyzeTextBtn:hover {
+  background-color: #0A1F44;
+  color: #FFFFFF;
+  transition: 0.7s;
+}
+
+.list-group-item {
+  border: none;
+  font-size: 16px;
+  background-color: rgba(10, 31, 68, 0.05);
+  color: #0A1F44;
+}
+
+.badge {
+  font-size: 14px;
+  background-color: #D4AF37;
+  color: #FFFFFF;
+}
+
+
+.sidebar{
+  background-color: #0A1F44;
+  color: #FFFFFF;
+  position: fixed;
+  height: 100%;
+  z-index: 1000;
+}
+
+.sidebar .nav-link:hover{
+  background-color: #D4AF37;
+  color: #0A1F44;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.sidebar .nav-link.active{
+  background-color: #D4AF37;
+  color: #0A1F44;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.main-content-text h5{
+  font-size: 40px;
+  font-weight:normal;
+  margin-top: 48px;
+}
+
+.main-content-text p{
+  font-size: 17px;
+  margin-top: 18px;
+}
+
+.result h5{
+  color: #6c757d;
+}
+
+.result p {
+  font-size: 64px;
+  color: #6c757d;
+}
+
+.color-span1 {
+  padding: 8px;
+  background-color: #D4AF37;;
+}
+
+/* Sidebar hidden on smaller screens */
+@media (max-width: 768px) {
+  .sidebar {
+    display: none;
+    height: auto !important;
+  }
+  .sidebar.show {
+    display: block;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+  }
+}
